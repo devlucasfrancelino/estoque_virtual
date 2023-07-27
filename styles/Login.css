@@ -1,0 +1,16 @@
+
+#LoginIcon {
+    position: relative;
+    right: 18.8vh;
+    top: 5.8vh;
+    color: #949494 ;
+}
+
+
+
+.exit {
+    position: absolute;
+    left: 10vh;
+    top: 8vh;
+    height: 3vh;
+}

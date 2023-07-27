@@ -1,0 +1,75 @@
+
+.popup, .inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.register-logo {
+    margin-top: 10vh;
+    height: 7vh;
+}
+
+.inputs {
+    margin-top: 4vh;
+    font-size: 3vh;
+}
+
+.inputs span {
+    position: relative;
+    right: 13vh;
+    font-weight: 400;
+    margin-top: 8vh;
+}
+
+.icons {
+    position: relative;
+    right: 18.8vh;
+    top: 5.8vh;
+    color: #949494 ;
+}
+
+.inputs input {
+    margin-top: 1vh;
+    font-size: 2.8vh;
+    border: 0.1vh #fff solid;
+    background-color: #e2e2e2;
+    padding-inline:3vh;
+    padding-left: 7vh;
+    padding-block: 1.5vh;
+    border-radius: 2vh;
+}
+
+
+#register {
+    color: #fff;
+    background-image: linear-gradient(to right top, #651d1f, #751e20, #841f21, #941f22, #a42022);
+    border: none;
+    margin-top: 4vh;
+    width: 43vh;
+    height: 6vh;
+    font-size: 1vw;
+    padding-inline-start: 0px !important;
+    padding: 0px;
+}
+
+.error-div {
+    background-color: #fff;
+    font-weight: 600;
+    color: #fff;
+    padding: 2.4vh;
+    border-radius: 2px;
+    margin-top: 4vh;
+
+}
+
+.error {
+    background-color: #be0309;
+    box-shadow: 0px 10px 10px -10px #000000;  
+    font-weight: 400;
+    border-radius: 20px;
+    padding-inline: 10vh;
+    padding-block: 10px;
+}

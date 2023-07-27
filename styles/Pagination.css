@@ -1,0 +1,24 @@
+.PageButton {
+  margin-top: 0;
+  padding: 0;
+  padding-inline: 1vh;
+  border-radius: 0;
+  border: none;
+  color: #000;
+  box-shadow: 0;
+}
+
+.PageButton {
+  padding: none;
+  margin-right: 0;
+}
+
+.Pagination {
+  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.Pagination li {
+  display: inline-block;
+}

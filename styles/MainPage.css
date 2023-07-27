@@ -1,0 +1,74 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh;
+}
+
+.logo {
+  height: 6vh;
+}
+
+.texts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+#register-button {
+  margin-inline: 3vh;
+}
+
+#login {
+  margin-left: 5vh;
+}
+
+.profile {
+  display: flex;
+  font-size: 4vh;
+  bottom: 6vh;
+}
+
+#show {
+  display: flex;
+}
+
+hr {
+  border-color: #000000 !important;
+  margin: 0px;
+  border-width: 0.1vh;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+  margin-left: 20vh;
+  margin-top: 2vh;
+  margin-right: 20vh;
+}
+
+.main h1 {
+  font-size: 7vh !important;
+}
+
+.main p {
+  font-size: 3vh !important;
+}
+
+.moto {
+  height: 50vh;
+  margin-top: 7vh;
+  margin-right: 1vh;
+}
